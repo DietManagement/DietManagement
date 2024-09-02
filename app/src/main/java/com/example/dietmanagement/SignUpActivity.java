@@ -24,7 +24,7 @@ public class SignUpActivity extends AppCompatActivity {
     EditText weight = findViewById(R.id.weightET_singUp);
     Spinner gender = findViewById(R.id.genderSpinner_singUp);
     Button singup = findViewById(R.id.singUpBTN_singUp);
-
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
