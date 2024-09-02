@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class SingUpActivity extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
 
     EditText id = findViewById(R.id.idET_singUp);
     Button duplication_id = findViewById(R.id.idDoubleCheckBTN_singUp);
@@ -29,7 +29,7 @@ public class SingUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_sing_up);
+        setContentView(R.layout.activity_sign_up);
 
         duplication_id.setOnClickListener(new View.OnClickListener() {
             @Override
